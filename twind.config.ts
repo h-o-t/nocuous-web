@@ -1,5 +1,3 @@
-/** @type {Omit<import("$fresh/plugins/twind.ts").Options, "selfURL">} */
-
 const colors = {
   "pigment-indigo": {
     DEFAULT: "#390099",
@@ -68,6 +66,7 @@ const colors = {
   },
 };
 
+/** @type {Omit<import("$fresh/plugins/twind.ts").Options, "selfURL">} */
 export default {
   theme: {
     colors: {
