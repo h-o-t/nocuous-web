@@ -1,4 +1,3 @@
-import Banner from "@components/Banner.tsx";
 import Title from "@components/Title.tsx";
 
 export default function Home() {

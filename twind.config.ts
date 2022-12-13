@@ -80,7 +80,7 @@ export default {
     },
     fontFamily: {
       body: [
-        "Hind",
+        "Varela Round",
         "ui-sans-serif",
         "system-ui",
         "BlinkMacSystemFont",
@@ -122,6 +122,6 @@ export default {
   },
   preflight: {
     "@import":
-      "url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Hind&family=Syne+Mono&display=swap')",
+      "url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Syne+Mono&family=Varela+Round&display=swap')",
   },
 };

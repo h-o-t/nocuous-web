@@ -24,7 +24,6 @@ export default function Stats({ data: { root, data } }: PageProps<Data>) {
   for (const [path, stats] of data) {
     let total = 0;
     const items = [];
-    console.log([...stats.values()].map(({ metric }) => metric));
     for (const { score, metric } of stats) {
       total += score;
       if (metric in statData) {
